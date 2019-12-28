@@ -2,3 +2,4 @@ MyResolution
 
 - Belajar CPP & OOP
 - Lebih Fokus ke Tujuan
+- Membuat Projek Arduino
