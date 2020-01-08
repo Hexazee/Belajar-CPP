@@ -25,15 +25,16 @@ int main() {
     cout << endl;
 
     int z,o;
+
     cout << "->> Shift Left & Shift Right <<-" << endl;
     cout << "Mau di Geser Berapa? : ";
     cin >> z;
-    hasil_SLFT = (x & y) << z;
+    hasil_SLFT = (x | y) << z;
     cout << "Hasil ShiftLeft = " << hasil_SLFT << endl;
 
     cout << "Mau di Geser Berapa? : ";
     cin >> o;
-    hasil_SRGHT = (x & y) >> o;
+    hasil_SRGHT = (x | y) >> o;
     cout << "Hasil ShiftRight = " << hasil_SRGHT << endl;
 
   return 0;
